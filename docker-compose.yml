@@ -14,6 +14,8 @@ services:
     environment:
       MYSQL_DATABASE: quick_laravel
       MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: quickusr
+      MYSQL_PASSWORD: quickpass
       TZ: Asia/Tokyo
     volumes:
       - ./docker/db/data:/var/lib/mysql
