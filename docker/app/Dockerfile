@@ -39,4 +39,4 @@ RUN echo "${DOCKER_USER}:${DOCKER_PASSWORD}" | chpasswd
 RUN usermod -aG sudo ${DOCKER_USER}
 
 # 作業ディレクトリを指定する
-WORKDIR /var/www/html/cms
+WORKDIR /var/www/html/quick-laravel
