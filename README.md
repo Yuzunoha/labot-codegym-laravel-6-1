@@ -58,6 +58,8 @@
   make bash
   ```
 
+  - app コンテナの bash から composer や artisan の各種コマンドを実行可能である
+
   - `exit` コマンドで bash から抜けられる
 
 ## db コンテナの mysql を実行する方法
