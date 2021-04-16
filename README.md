@@ -91,3 +91,11 @@
     ```
     docker@39983adf6bac:/var/www/html/cms$ php artisan make:model Book
     ```
+
+  - artisan コマンドで books マイグレーションファイルを作成する
+
+  - app コンテナの bash で下記のコマンドを実行する
+
+    ```
+    docker@39983adf6bac:/var/www/html/cms$ php artisan make:migration create_books_table
+    ```
