@@ -81,3 +81,11 @@
     ```
     docker@39983adf6bac:/var/www/html/cms$ php artisan make:controller HelloController
     ```
+
+- artisan コマンドで Book モデルを作成する
+
+  - app コンテナの bash で下記のコマンドを実行する
+
+    ```
+    docker@39983adf6bac:/var/www/html/cms$ php artisan make:model Book
+    ```
