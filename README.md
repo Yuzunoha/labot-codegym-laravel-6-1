@@ -33,3 +33,51 @@
   ```
   make up
   ```
+
+## コンテナを終了する方法
+
+- 下記のコマンドを実行する
+
+  ```
+  make down
+  ```
+
+## コンテナの状態を確認する方法
+
+- 下記のコマンドを実行する
+
+  ```
+  make ps
+  ```
+
+## app コンテナの bash を実行する方法
+
+- 下記のコマンドを実行する
+
+  ```
+  make bash
+  ```
+
+  - `exit` コマンドで bash から抜けられる
+
+## db コンテナの mysql を実行する方法
+
+- 下記のコマンドを実行する
+
+  ```
+  make mysql
+  ```
+
+  - `exit` コマンドで mysql から抜けられる
+
+  - このコマンドは教科書の msyql のコマンドラインに root ユーザで接続する方法と同等です
+
+## 例
+
+- artisan コマンドで HelloController を作成する
+
+  - app コンテナの bash で下記のコマンドを実行する
+
+    ```
+    docker@39983adf6bac:/var/www/html/cms$ php artisan make:controller HelloController
+    ```
